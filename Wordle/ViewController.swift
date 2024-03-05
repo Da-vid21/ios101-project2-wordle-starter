@@ -44,12 +44,13 @@ class ViewController: UIViewController,
     // function that gets called similar to `didTapSettingsButton`. Make use of the online documentation and
     // CMD + click to learn more about what methods and properties you can use
     // Tip 2: You'll want to use and implement `resetBoardWithCurrentSettings` inside of BoardController.swift
+      
     // in the function that you fire when the button is tapped
     // START YOUR CODE HERE
     // ...
     // END YOUR CODE HERE
   }
-  
+    
   @objc private func didTapSettingsButton() {
     performSegue(withIdentifier: segueIdentifier, sender: nil)
   }
